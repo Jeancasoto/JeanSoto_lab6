@@ -16,7 +16,7 @@ public class Restaurante extends Lugar{
         this.calificacion = calificacion;
     }
     
-
+    
     public String getCategoria() {
         return categoria;
     }

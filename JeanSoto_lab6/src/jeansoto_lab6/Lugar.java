@@ -8,9 +8,15 @@ public class Lugar {
     String direccion;
     String salida;
     int seguridad;
-    ArrayList entradas = new ArrayList();
+    ArrayList <String>entradas = new ArrayList();
 
     public Lugar() {
+    }
+
+    public Lugar(String nombre, String direccion, int seguridad) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.seguridad = seguridad;
     }
 
     public Lugar(String nombre, String direccion, String salida, int seguridad) {

@@ -3,34 +3,34 @@ package jeansoto_lab6;
 
 
 public class Carretera {
-    int numero;
-    double distancia;
+    String numero;
+    String distancia;
     String inicio;
     String fin;
 
     public Carretera() {
     }
 
-    public Carretera(int numero, double distancia, String inicio, String fin) {
+    public Carretera(String numero, String distancia, String inicio, String fin) {
         this.numero = numero;
         this.distancia = distancia;
         this.inicio = inicio;
         this.fin = fin;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
-    public double getDistancia() {
+    public String getDistancia() {
         return distancia;
     }
 
-    public void setDistancia(double distancia) {
+    public void setDistancia(String distancia) {
         this.distancia = distancia;
     }
 
